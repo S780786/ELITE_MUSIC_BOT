@@ -1,4 +1,4 @@
-from asyncio import Queue, QueueEmpty as Empty
+from asyncio import Queue
 from typing import Dict, Union
 
 queues: Dict[int, Queue] = {}
