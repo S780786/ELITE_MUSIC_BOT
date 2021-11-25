@@ -1,5 +1,4 @@
-from asyncio import Queue
-from typing import Dict, Union
+from asyncio import Queue,QueueEmpty as Empty
 
 QUEUE = {}
 
